@@ -11,7 +11,7 @@ struct ChatPlaceholderView: View {
     @StateObject private var livekit = LiveKitManager()
     @StateObject private var meter = AudioLevelMeter()
     @State private var token: String =
-        "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6Imxlc3Nvbi1yb29tIn0sImlzcyI6ImRldmtleSIsImV4cCI6MTc1NzAxNDYzOSwibmJmIjowLCJzdWIiOiJ1c2VyLTEyMzQifQ.idiqemyaky5YNXiyH_otBApHPeOQC5vwnKV7jWUlpKE"
+        ""
 
     var body: some View {
         VStack(spacing: 20) {
